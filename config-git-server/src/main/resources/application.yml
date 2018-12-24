@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Vzifeng/springcloud.git
+          search-paths: config-repo
+          username: 1281084456@qq.com
+          password: yangyunlong123456

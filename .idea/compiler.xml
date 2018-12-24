@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-git-client" />
+        <module name="config-git-server" />
         <module name="consumer" />
         <module name="eureka" />
         <module name="producer" />
